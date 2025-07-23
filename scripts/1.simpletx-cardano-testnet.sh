@@ -137,17 +137,17 @@ press_to_continue
 
 
 print_step "Step 9: Query Final Balances"
-echo
-echo "--- Final balance for delegator1 ---"
-COMMAND="cardano-cli conway query utxo --address $(< $DELEGATOR1_ADDR_FILE) --output-text"
-echo "$ $COMMAND"
-eval "$COMMAND"
-
+sleep 3
 echo
 echo "--- Final balance for utxo1 (change address) ---"
 COMMAND="cardano-cli conway query utxo --address $(< $UTXO1_ADDR_FILE) --output-text"
 echo "$ $COMMAND"
 eval "$COMMAND"
 
+echo 
+echo "--- Final balance for delegator1 ---"
+COMMAND="cardano-cli conway query utxo --address $(< $DELEGATOR1_ADDR_FILE) --output-text"
+echo "$ $COMMAND"
+eval "$COMMAND"
 
 print_step "Workflow complete!"
