@@ -1,30 +1,23 @@
 # DevTools - Aiken Workshop
 
-### Your Personal Blockchain: cardano-testnet
+### cardano-testnet: A tool to easily deploy local cluster
 - Install cardano-node, cardano-cli and cardano-testnet 
-- Launching a local testnet
+- Launching a local testnet with current protocol parameters but short epochs
 - Tweak genesis files to launch a testnet with custom parameters
 
 ### Automation & Community Discussion
-- Integrating cardano-testnet into CI: How we use cardano-testnet to run cardano-node tests. 
+- Integrating cardano-testnet into CI: How cardano-testnet is used to run cardano-node tests. 
 
 ### The Extended UTXO Model (eUTxO) 
 - Core concepts
 
-### The eUTXO Model in practice with cardano-cli 
-
-- Practical eUTxO: Building Simple Transactions
-
-### First Steps with Aiken Smart Contracts
-- Meet Aiken: A Modern Language for Cardano
-- First Validator: The always_true Script
-- Compile the Script
-- Lock funds in the always_true Script address
-- Unlock funds (build, sign and submit transaction)
+### Using local cluster to run and test your scripts
+- Building Simple Transactions
+- Compile the script
+- The AlwaysTrue script
 
 ### The hello world Script
-- Second Validator: The hello_world Script
-- Compile the script
+- The hello_world Script
 - Lock funds in the hello_world Script address
 - Unlock funds (build, sign and submit transaction)
 
