@@ -1,22 +1,28 @@
 # DevTools - Aiken Workshop
 
-### cardano-testnet: A tool to easily deploy local cluster
+Scan teh QR code for this repository or go to 
+https://github.com/input-output-hk/rare-evo-dev-tools-workshop
+
+
+![qrcode](./images/rareEvo-workshop.jpg)
+
+### [cardano-testnet: A tool to easily deploy local cluster](./docs/1.cardano-testnet.md)
 - Install cardano-node, cardano-cli and cardano-testnet 
 - Launching a local testnet with current protocol parameters but short epochs
 - Tweak genesis files to launch a testnet with custom parameters
+- Basic operations on the testnet, building Simple Transactions
 
-### Automation & Community Discussion
+### [Using cardano-testnet on CI](./docs/2.cardano-testnet-tests.md)
 - Integrating cardano-testnet into CI: How cardano-testnet is used to run cardano-node tests. 
 
-### The Extended UTXO Model (eUTxO) 
+### [The Extended UTXO Model (eUTxO)](./docs/3.UTxO-EUTxO.pdf) 
 - Core concepts
 
-### Using local cluster to run and test your scripts
-- Building Simple Transactions
-- Compile the script
+### [Using local cluster to run and test your scripts](./docs/4.aiken-always-true.md)
 - The AlwaysTrue script
+- Compile the script
 
-### The hello world Script
+### [The hello world Script](./docs/5.aiken-hello-world.md)
 - The hello_world Script
 - Lock funds in the hello_world Script address
 - Unlock funds (build, sign and submit transaction)
