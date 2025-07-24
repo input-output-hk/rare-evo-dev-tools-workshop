@@ -1,4 +1,4 @@
-# DevTools - Aiken Workshop
+#  Hands-On: Local Development with cardano-testnet
 
 Scan teh QR code for this repository or go to 
 https://github.com/input-output-hk/rare-evo-dev-tools-workshop
