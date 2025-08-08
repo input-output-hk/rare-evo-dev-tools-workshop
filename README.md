@@ -15,14 +15,14 @@ https://github.com/input-output-hk/rare-evo-dev-tools-workshop
 ### [Using cardano-testnet on CI](./docs/2.cardano-testnet-tests.md)
 - Integrating cardano-testnet into CI: How cardano-testnet is used to run cardano-node tests. 
 
-### [The Extended UTXO Model (eUTxO)](./docs/3.UTxO-EUTxO.pdf) 
-- Core concepts
-
 ### [Using local cluster to run and test your scripts](./docs/4.aiken-always-true.md)
 - The AlwaysTrue script
 - Compile the script
 
-### [The hello world Script](./docs/5.aiken-hello-world.md)
+### [The Extended UTXO Model (eUTxO)](./docs/3.UTxO-EUTxO.pdf) 
+- Core concepts
+
+### [Introduction to Aiken](./docs/5.aiken-hello-world.md)
 - The hello_world Script
 - Lock funds in the hello_world Script address
 - Unlock funds (build, sign and submit transaction)
